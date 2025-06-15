@@ -7,6 +7,7 @@ This repository contains a collection of reusable Python code snippets and utili
 ### Logic Circuits Functions
 
  - `create_truth_table`: Generate and optionally print the truth table for a custom Boolean operation.
+ - `custom_operation`: Custom Boolean operation: returns 0 if the first half of the input bits matches the second half; otherwise returns 1.
 
 ```python
 # Example usage: generate and print the truth table for the custom operation
@@ -36,7 +37,6 @@ inputs, outputs = create_truth_table(num_inputs=4,
 # --------------------------
 ```
 
- - `custom_operation`: Custom Boolean operation: returns 0 if the first half of the input bits matches the second half; otherwise returns 1.
  - `generate_circuit_expression`: Generate a Boolean circuit expression (CNF-style) based on the given truth table.
 
 ```python
